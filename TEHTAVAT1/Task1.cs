@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace TEHTAVAT1
 {
-    class Program
+    class Task1
     {
-        static void Main(string[] args)
-        {
-            TEHTAVAT1.Task1.TASK1();
+        public static void TASK1 ()
+        { 
+                  Console.WriteLine("Under new management");
         }
     }
 }

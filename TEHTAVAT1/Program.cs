@@ -10,7 +10,7 @@ namespace TEHTAVAT1
     {
         static void Main(string[] args)
         {
-            //TEHTAVAT1.Task1.TASK1();
+            TEHTAVAT1.Task1.TASK1();
             //TEHTAVAT1.Task2.TASK2();
             //TEHTAVAT1.Task3.TASK3();
             //TEHTAVAT1.Task4.TASK4();

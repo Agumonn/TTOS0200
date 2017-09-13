@@ -16,9 +16,10 @@ namespace TEHTAVAT1
             luvut1.CopyTo(kaikki, 0);
             luvut2.CopyTo(kaikki, luvut1.Length);
             Array.Sort(kaikki);
+            Console.WriteLine("taulukot yhdistettynä");
             for (int i = 0; i < kaikki.Length; i++)
             {
-                Console.WriteLine(kaikki[i]);
+                Console.Write(kaikki[i] + " ");
             }
 
 

@@ -22,8 +22,10 @@ namespace TEHTAVAT1
             //TEHTAVAT1.Task9.TASK9();
             //TEHTAVAT1.Task10.TASK10();
             //TEHTAVAT1.Task11.TASK11();
-            TEHTAVAT1.Task12.TASK12();
-            TEHTAVAT1.Task16.TASK16();
+            //TEHTAVAT1.Task12.TASK12();
+            //TEHTAVAT1.Task13.TASK13();
+            //TEHTAVAT1.Task14.TASK14();
+            //TEHTAVAT1.Task16.TASK16();
             TEHTAVAT1.Task17.TASK17();
         }
     }

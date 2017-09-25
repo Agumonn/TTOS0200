@@ -28,7 +28,7 @@ namespace TEHTAVAT1
                 }
                 Console.WriteLine();
             }
-            Console.ReadKey();
+            
         }
     }
 }

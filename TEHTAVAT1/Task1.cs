@@ -19,15 +19,15 @@ namespace TEHTAVAT1
             luku = int.Parse(Console.ReadLine());
             if(luku ==1)
             {
-                Console.WriteLine("Annoit luvun {0}", luku);
+                Console.WriteLine("Annoit luvun yksi");
             }
             if (luku == 2)
             {
-                Console.WriteLine("Annoit luvun {0}", luku);
+                Console.WriteLine("Annoit luvun kaksi");
             }
             if (luku == 3)
             {
-                Console.WriteLine("Annoit luvun {0}", luku);
+                Console.WriteLine("Annoit luvun kolme");
             }
             if (luku == 0 | luku > 3)
             {

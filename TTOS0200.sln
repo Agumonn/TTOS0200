@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VKO39-1", "VKO39-1\VKO39-1.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VKO39-2", "VKO39-2\VKO39-2.csproj", "{88B736A9-13E1-4C6C-B547-47FA59D18F0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VKO39-3", "VKO39-3\VKO39-3.csproj", "{3DAF0C51-C9F3-4C27-B582-76E22B222D54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{88B736A9-13E1-4C6C-B547-47FA59D18F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88B736A9-13E1-4C6C-B547-47FA59D18F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88B736A9-13E1-4C6C-B547-47FA59D18F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DAF0C51-C9F3-4C27-B582-76E22B222D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DAF0C51-C9F3-4C27-B582-76E22B222D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DAF0C51-C9F3-4C27-B582-76E22B222D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DAF0C51-C9F3-4C27-B582-76E22B222D54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

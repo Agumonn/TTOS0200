@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VK38", "VK38\VK38.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPPILASuusi", "OPPILASuusi\OPPILASuusi.csproj", "{832D57C0-FA45-44AE-985A-12D72A7C34B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VKO39-1", "VKO39-1\VKO39-1.csproj", "{8B02CC1D-0001-43A7-A4E0-56D36DFA468E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{832D57C0-FA45-44AE-985A-12D72A7C34B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{832D57C0-FA45-44AE-985A-12D72A7C34B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{832D57C0-FA45-44AE-985A-12D72A7C34B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B02CC1D-0001-43A7-A4E0-56D36DFA468E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B02CC1D-0001-43A7-A4E0-56D36DFA468E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B02CC1D-0001-43A7-A4E0-56D36DFA468E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B02CC1D-0001-43A7-A4E0-56D36DFA468E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello", "Hello\Hello.csproj", "{43D3A9D9-D831-46CD-BE33-1DE6770DB406}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VKO39-2", "VKO39-2\VKO39-2.csproj", "{88B736A9-13E1-4C6C-B547-47FA59D18F0C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VKO39-3", "VKO39-3\VKO39-3.csproj", "{3DAF0C51-C9F3-4C27-B582-76E22B222D54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VKO40-1", "VKO40-1\VKO40-1.csproj", "{F80C29E4-CF64-4ED2-96F3-CFB9EEC3266A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{3DAF0C51-C9F3-4C27-B582-76E22B222D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DAF0C51-C9F3-4C27-B582-76E22B222D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DAF0C51-C9F3-4C27-B582-76E22B222D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F80C29E4-CF64-4ED2-96F3-CFB9EEC3266A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80C29E4-CF64-4ED2-96F3-CFB9EEC3266A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80C29E4-CF64-4ED2-96F3-CFB9EEC3266A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80C29E4-CF64-4ED2-96F3-CFB9EEC3266A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,10 +10,10 @@ namespace VKO40_4
     {
         static void Main(string[] args)
         {
-            Cd levy = new Cd();
-            Vinyl lätty = new Vinyl();
-            Dvd leffa = new Dvd();
-            Bluray lefu = new Bluray();
+            Music levy = new Music();
+            Music lätty = new Music();
+            Video dvd = new Video();
+            Video bluray = new Video();
             Magazine lehti = new Magazine();
             Book kirja = new Book();
 
@@ -28,22 +28,22 @@ namespace VKO40_4
             lätty.Trackcount=10;
             lätty.Format="vinyl";
 
-            leffa.Name ="Blade runner";
-            leffa.Director="Ridley scott";
-            leffa.Writer="unknown";
-            leffa.Year= 1982;
-            leffa.Leadactor="harrison ford";
-            leffa.Leadactress="unknown";
-            leffa.Format="dvd";
-            
+            dvd.Name ="Blade runner";
+            dvd.Director="Ridley scott";
+            dvd.Writer="unknown";
+            dvd.Year= 1982;
+            dvd.Leadactor="harrison ford";
+            dvd.Leadactress="unknown";
+            dvd.Format="dvd";
 
-            lefu.Name ="gladiator";
-            lefu.Director="Ridley scott";
-            lefu.Writer="unknown";
-            lefu.Year=2001;
-            lefu.Leadactor="unknown";
-            lefu.Leadactress="unknown";
-            lefu.Format="blu-ray";
+
+            bluray.Name ="gladiator";
+            bluray.Director="Ridley scott";
+            bluray.Writer="unknown";
+            bluray.Year=2001;
+            bluray.Leadactor="unknown";
+            bluray.Leadactress="unknown";
+            bluray.Format="blu-ray";
 
             lehti.Name="iltalehti";
             lehti.Pagecount= 55;
@@ -57,8 +57,8 @@ namespace VKO40_4
 
             Console.WriteLine(kirja.ToString());
             Console.WriteLine(lehti.ToString());
-            Console.WriteLine(leffa.ToString());
-            Console.WriteLine(lefu.ToString());
+            Console.WriteLine(dvd.ToString());
+            Console.WriteLine(bluray.ToString());
             Console.WriteLine(lätty.ToString());
             Console.WriteLine(levy.ToString());
 

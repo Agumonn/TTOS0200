@@ -46,56 +46,25 @@ namespace VKO40_4
         public string Leadactor {get;set;}
         public string Leadactress {get;set;}
         public int Year {get;set;}
+        public string Format { get; set; }
 
         public override string ToString()
             {
-                return " Ohjaaja: " + Director + " käsikirjoittaja: " + Writer + " näyttelijät:" + Leadactor + " " + Leadactress+ " vuosi:" + Year ;
+                return " Ohjaaja: " + Director + " käsikirjoittaja: " + Writer + " näyttelijät:" + Leadactor + " " + Leadactress+ " vuosi:" + Year+ "Format: " + Format;
             }
 
         }
-    public class Bluray :Video
-        {
-        public string Format{get;set;}
-        public override string ToString()
-            {
-                return "Format: " + Format;
-            }
-
-        }
-    public class Dvd :Video
-        {
-        public string Format{get;set;}
-        public override string ToString()
-            {
-                return "Format: " + Format;
-            }
-
-        }
+    
     public class Music :Bookshelf
         { 
         public string Artist{get;set;}
         public int Trackcount{get;set;}
+        public string Format;
         public override string ToString()
             {
-                return "Artisti: " + Artist + " Biisien lkm "+ Trackcount ;
+                return "Artisti: " + Artist + " Biisien lkm "+ Trackcount + "Format: " + Format;
             }
 
-        }
-    public class Vinyl : Music
-        {
-        public string Format;
-        public override string ToString()
-            {
-                return "Format: " + Format;
-            }
-        }
-    public class Cd : Music
-        {
-        public string Format;
-        public override string ToString()
-            {
-                return "Format: " + Format;
-            }
         }
 
 

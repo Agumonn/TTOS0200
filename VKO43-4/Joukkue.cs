@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace VKO43_4
 {
-    class Program
+    class Joukkue
     {
-        static void Main(string[] args)
-        {    }
     }
 }

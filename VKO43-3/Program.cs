@@ -11,7 +11,7 @@ namespace VKO43_3
         static void Main(string[] args)
         {
             Deck Pakka = new Deck();
-            Pakka.CreateDeck(13);
+            Pakka.CreateDeck();
             Pakka.ShowDeck();
             Console.WriteLine("\nShuffled deck\n");
             Pakka.Shuffle();

@@ -14,7 +14,7 @@ namespace VKO43_3
             cards = new List<Kortti>();
         }
 
-        public void CreateDeck(int cardhouses)
+        public void CreateDeck(int cardhouses=13)
         {
             //hertta 1-13
             for (int x = 0; x < cardhouses; x++)

@@ -1,0 +1,22 @@
+﻿<Window x:Class="WPFDEMO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFDEMO"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Terve Maailma" HorizontalAlignment="Left" Margin="85,109,0,0" VerticalAlignment="Top" Width="214" Height="18" Click="Button_Click"/>
+        <TextBox x:Name="txtNimi" HorizontalAlignment="Left" Height="22" Margin="85,72,0,0" TextWrapping="Wrap" Text="Anna Nimesi" VerticalAlignment="Top" Width="214"/>
+        <TextBlock x:Name="txbMessu" HorizontalAlignment="Left" Margin="85,150,0,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top" FontSize="14" FontFamily="Rockwell" FontWeight="Bold" FontStyle="Italic" TextDecorations="Underline" TextAlignment="Center" Height="148" Width="390"/>
+        <Button x:Name="btnSuurenna" Content="suurenna" HorizontalAlignment="Left" Margin="324,107,0,0" VerticalAlignment="Top" Width="75" Click="btnSuurenna_Click"/>
+        <ComboBox x:Name="cmbVarit" HorizontalAlignment="Left" Margin="363,72,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cmbVarit_SelectionChanged">
+            <ListBoxItem Content="red" Foreground="#FFF13618"/>
+            <ListBoxItem Content="yellow" Background="#FFFBFB05"/>
+            <ListBoxItem Content="blue" Background="#FF000BF5"/>
+            <ListBoxItem Background="#FF15E40C" Content="green"/>
+        </ComboBox>
+
+    </Grid>
+</Window>

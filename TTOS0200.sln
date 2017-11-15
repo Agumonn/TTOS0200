@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello", "Hello\Hello.csproj", "{43D3A9D9-D831-46CD-BE33-1DE6770DB406}"
 EndProject
@@ -60,6 +60,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LAB10-2", "LAB10-2\LAB10-2.csproj", "{3E39FF5C-BA02-4089-BDEA-571839C72C69}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LAB10-3", "LAB10-3\LAB10-3.csproj", "{D628A4DC-0156-462B-AC43-A4CD8CFBA607}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "autotalli", "autotalli\autotalli.csproj", "{15A28693-2F3E-470C-BA59-095120F78DE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +185,10 @@ Global
 		{D628A4DC-0156-462B-AC43-A4CD8CFBA607}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D628A4DC-0156-462B-AC43-A4CD8CFBA607}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D628A4DC-0156-462B-AC43-A4CD8CFBA607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A28693-2F3E-470C-BA59-095120F78DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A28693-2F3E-470C-BA59-095120F78DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A28693-2F3E-470C-BA59-095120F78DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A28693-2F3E-470C-BA59-095120F78DE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,27 @@
+﻿<Window x:Class="LAB10_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LAB10_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Margin="0,0,-168,0" HorizontalAlignment="Left" Width="685">
+        <Rectangle Fill="#FF7A3700" HorizontalAlignment="Left" Height="299" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="302"/>
+        <Rectangle Fill="#FFFFFDFB" HorizontalAlignment="Left" Height="277" Margin="23,21,0,0" Stroke="Black" VerticalAlignment="Top" Width="276"/>
+        <Button x:Name="laske" Content="Laske" HorizontalAlignment="Left" Height="27" Margin="390,138,0,0" VerticalAlignment="Top" Width="57" Click="laske_Click"/>
+        <TextBox x:Name="leveysbox" HorizontalAlignment="Left" Height="24" Margin="441,21,0,0" TextWrapping="Wrap" Text="2500" VerticalAlignment="Top" Width="62" SpellCheck.IsEnabled="True"/>
+        <TextBox x:Name="korkeusbox" HorizontalAlignment="Left" Height="24" Margin="441,54,0,0" TextWrapping="Wrap" Text="1000" VerticalAlignment="Top" Width="62"/>
+        <TextBox x:Name="karmibox" HorizontalAlignment="Left" Height="24" Margin="441,87,0,0" TextWrapping="Wrap" Text="45" VerticalAlignment="Top" Width="62"/>
+        <TextBlock x:Name="leveysblock" HorizontalAlignment="Left" Height="24" Margin="327,21,0,0" TextWrapping="Wrap" Text="Ikkunan leveys" VerticalAlignment="Top" Width="109"/>
+        <TextBlock x:Name="korkeusblock" HorizontalAlignment="Left" Height="24" Margin="327,55,0,0" TextWrapping="Wrap" Text="Ikkunan korkeus" VerticalAlignment="Top" Width="109"/>
+        <TextBlock x:Name="karmiblock" HorizontalAlignment="Left" Height="24" Margin="327,87,0,0" TextWrapping="Wrap" Text="Karmipuun leveys" VerticalAlignment="Top" Width="109"/>
+        <TextBox x:Name="ikkunapabox" HorizontalAlignment="Left" Height="24" Margin="430,197,0,0" TextWrapping="Wrap" Text="2500" VerticalAlignment="Top" Width="84" SpellCheck.IsEnabled="True"/>
+        <TextBox x:Name="lasinpabox" HorizontalAlignment="Left" Height="24" Margin="430,230,0,0" TextWrapping="Wrap" Text="1000" VerticalAlignment="Top" Width="84"/>
+        <TextBox x:Name="karmipiiribox" HorizontalAlignment="Left" Height="24" Margin="430,263,0,0" TextWrapping="Wrap" Text="45" VerticalAlignment="Top" Width="84"/>
+        <TextBlock x:Name="ikkunapablock" HorizontalAlignment="Left" Height="24" Margin="327,197,0,0" TextWrapping="Wrap" Text="Ikkunan pinta-ala" VerticalAlignment="Top" Width="98"/>
+        <TextBlock x:Name="lasinpablock" HorizontalAlignment="Left" Height="24" Margin="327,230,0,0" TextWrapping="Wrap" Text="Lasin pinta-ala" VerticalAlignment="Top" Width="98"/>
+        <TextBlock x:Name="karmipiiriblock" HorizontalAlignment="Left" Height="24" Margin="327,263,0,0" TextWrapping="Wrap" Text="Karmin piiri" VerticalAlignment="Top" Width="98"/>
+
+    </Grid>
+</Window>

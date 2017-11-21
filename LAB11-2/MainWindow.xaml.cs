@@ -20,14 +20,17 @@ namespace LAB11_2
     /// </summary>
     public partial class MainWindow : Window
     {
+        private List<Pelaaja> pelaajat;
         public MainWindow()
         {
             InitializeComponent();
+            pelaajat = Joukkue.HaePelaajat(); 
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-
+            pelaajat = Joukkue.HaePelaajat();
+            PlayerList.ItemsSource = pelaajat;
         }
     }
 }

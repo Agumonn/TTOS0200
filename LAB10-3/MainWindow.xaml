@@ -7,8 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid Margin="0,0,-168,0" HorizontalAlignment="Left" Width="685">
-        <Rectangle Fill="#FF7A3700" HorizontalAlignment="Left" Height="299" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="302"/>
-        <Rectangle Fill="#FFFFFDFB" HorizontalAlignment="Left" Height="277" Margin="23,21,0,0" Stroke="Black" VerticalAlignment="Top" Width="276"/>
+        <Rectangle x:Name="Ikkuna" Fill="#FFFFFDFB" HorizontalAlignment="Left" Height="277" Margin="23,21,0,0" Stroke="Black" VerticalAlignment="Top" Width="276" StrokeThickness="5"/>
         <Button x:Name="laske" Content="Laske" HorizontalAlignment="Left" Height="27" Margin="390,138,0,0" VerticalAlignment="Top" Width="57" Click="laske_Click"/>
         <TextBox x:Name="leveysbox" HorizontalAlignment="Left" Height="24" Margin="441,21,0,0" TextWrapping="Wrap" Text="2500" VerticalAlignment="Top" Width="62" SpellCheck.IsEnabled="True"/>
         <TextBox x:Name="korkeusbox" HorizontalAlignment="Left" Height="24" Margin="441,54,0,0" TextWrapping="Wrap" Text="1000" VerticalAlignment="Top" Width="62"/>
@@ -22,6 +21,7 @@
         <TextBlock x:Name="ikkunapablock" HorizontalAlignment="Left" Height="24" Margin="327,197,0,0" TextWrapping="Wrap" Text="Ikkunan pinta-ala" VerticalAlignment="Top" Width="98"/>
         <TextBlock x:Name="lasinpablock" HorizontalAlignment="Left" Height="24" Margin="327,230,0,0" TextWrapping="Wrap" Text="Lasin pinta-ala" VerticalAlignment="Top" Width="98"/>
         <TextBlock x:Name="karmipiiriblock" HorizontalAlignment="Left" Height="24" Margin="327,263,0,0" TextWrapping="Wrap" Text="Karmin piiri" VerticalAlignment="Top" Width="98"/>
+        <TextBox x:Name="tulosbox" HorizontalAlignment="Left" Height="21" Margin="327,292,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="98"/>
 
     </Grid>
 </Window>

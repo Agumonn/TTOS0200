@@ -12,9 +12,11 @@
         <Label x:Name="label1" Content="Valitse peli" HorizontalAlignment="Left" Height="27" Margin="103,18,0,0" VerticalAlignment="Top" Width="98"/>
         <Label x:Name="label2" Content="Kierrosten lkm" HorizontalAlignment="Left" Height="27" Margin="103,68,0,0" VerticalAlignment="Top" Width="98"/>
         <TextBox x:Name="kierrosbox" HorizontalAlignment="Left" Height="27" Margin="237,68,0,0"  BorderThickness="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="112"/>
-        <Button x:Name="draw" Content="Draw" HorizontalAlignment="Left" Height="34" Margin="103,127,0,0" VerticalAlignment="Top" Width="98"/>
-        <Button x:Name="clear" Content="Clear" HorizontalAlignment="Left" Height="34" Margin="237,127,0,0" VerticalAlignment="Top" Width="112"/>
-        <TextBlock x:Name="rivitblock" HorizontalAlignment="Left" Height="133" Margin="103,176,0,0"   TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="255" />
-
+        <Button x:Name="draw" Content="Draw" HorizontalAlignment="Left" Height="34" Margin="103,127,0,0" VerticalAlignment="Top" Width="98" Click="draw_Click_1" />
+        <Button x:Name="clear" Content="Clear" HorizontalAlignment="Left" Height="34" Margin="237,127,0,0" VerticalAlignment="Top" Width="112" Click="clear_Click_1"/>
+        
+        <ScrollViewer HorizontalAlignment="Left" Height="143" Margin="90,165,0,0" VerticalAlignment="Top" Width="350" CanContentScroll="True">
+            <TextBlock x:Name="rivitblock" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        </ScrollViewer>
     </Grid>
 </Window>
